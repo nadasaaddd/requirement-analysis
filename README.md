@@ -114,3 +114,31 @@ The diagram below illustrates the primary actors and use cases for the **Booking
 - Receive confirmation
 - Manage users
 - Generate reports
+
+## ✅ Acceptance Criteria
+
+**Acceptance Criteria** are a set of predefined conditions that a software feature must satisfy to be accepted by the stakeholders. They play a crucial role in bridging the gap between business needs and technical implementation.
+
+### 📌 Importance of Acceptance Criteria in Requirement Analysis:
+
+- **Clarifies Expectations**: Clearly defines what is expected for a feature to be considered complete.
+- **Improves Communication**: Aligns developers, testers, and stakeholders on the definition of “done.”
+- **Supports Testing**: Provides a concrete basis for creating test cases and verifying functionality.
+- **Reduces Misunderstandings**: Minimizes ambiguity by outlining specific, measurable conditions.
+
+### 🧾 Example: Checkout Feature in the Booking Management System
+
+**Feature**: Checkout Process
+
+**Acceptance Criteria**:
+- ✅ User must be able to review selected services before confirming the booking.
+- ✅ The system should display a final price including taxes and discounts (if applicable).
+- ✅ User must provide payment information and agree to terms and conditions before proceeding.
+- ✅ Upon successful payment, the system should:
+  - Generate a booking confirmation number.
+  - Send a confirmation email to the user with booking details.
+  - Update the booking availability in real-time.
+- ✅ If payment fails, an error message should be displayed and the booking should not be finalized.
+
+Acceptance criteria ensure that each feature delivers value and meets business requirements before it is considered complete.
+
